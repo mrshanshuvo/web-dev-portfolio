@@ -6,10 +6,6 @@
   font-style: normal;
   font-variation-settings: "wdth" 100;
 }
-* {
-  margin: 0;
-  padding: 0;
-}
 
 /* shared styles */
 .secondary-bg {
@@ -28,6 +24,16 @@
   font-size: 20px;
   color: white;
   border: none;
+  padding: 18px 35px;
+  border-radius: 5px;
+}
+
+.contact-btn {
+  background-color: white;
+  font-weight: bold;
+  font-size: 20px;
+  color: #fd6e0a;
+  border: 1px solid #fd6e0a;
   padding: 18px 35px;
   border-radius: 5px;
 }
